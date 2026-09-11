@@ -1,0 +1,271 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ==========================================================================
+   Custom Local Font Definitions (Figtree, Inter Tight, Inter, Geist Mono)
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   Figtree Font Family (Normal & Italic, 300-800)
+   -------------------------------------------------------------------------- */
+@font-face {
+  font-family: 'Figtree';
+  src: url('/fonts/_Xm9-HUzqDCFdgfMm4GnA4aZFrUvtOK3Ax8ayEA25WTybO8.woff2') format('woff2');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Figtree';
+  src: url('/fonts/_Xmz-HUzqDCFdgfMsYiV_F7wfS-Bs_d_QF5bwkEU4HTy.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Figtree';
+  src: url('/fonts/_Xm9-HUzqDCFdgfMm4GnA4aZFrUvtOK3A7YdyEA25WTybO8.woff2') format('woff2');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Figtree';
+  src: url('/fonts/_Xmz-HUzqDCFdgfMsYiV_F7wfS-Bs_dNQF5bwkEU4HTy.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Figtree';
+  src: url('/fonts/_Xm9-HUzqDCFdgfMm4GnA4aZFrUvtOK3A4QdyEA25WTybO8.woff2') format('woff2');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Figtree';
+  src: url('/fonts/_Xmz-HUzqDCFdgfMsYiV_F7wfS-Bs_ehR15bwkEU4HTy.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Figtree';
+  src: url('/fonts/_Xm9-HUzqDCFdgfMm4GnA4aZFrUvtOK3A2gayEA25WTybO8.woff2') format('woff2');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Figtree';
+  src: url('/fonts/_Xmz-HUzqDCFdgfMsYiV_F7wfS-Bs_eYR15bwkEU4HTy.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Figtree';
+  src: url('/fonts/_Xm9-HUzqDCFdgfMm4GnA4aZFrUvtOK3A1EayEA25WTybO8.woff2') format('woff2');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Figtree';
+  src: url('/fonts/_Xmz-HUzqDCFdgfMsYiV_F7wfS-Bs_fWR15bwkEU4HTy.woff2') format('woff2');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* --------------------------------------------------------------------------
+   Inter Tight Font Family (300-900)
+   -------------------------------------------------------------------------- */
+@font-face {
+  font-family: 'Inter Tight';
+  src: url('/fonts/NGSnv5HMAFg6IuGlBNMjxJEL2VmU3NS7Z2mjPQ-aXy5SkK8.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter Tight';
+  src: url('/fonts/NGSnv5HMAFg6IuGlBNMjxJEL2VmU3NS7Z2mjPQ-aVy5SkK8.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter Tight';
+  src: url('/fonts/NGSnv5HMAFg6IuGlBNMjxJEL2VmU3NS7Z2mjPQ-aWy5S.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter Tight';
+  src: url('/fonts/NGSnv5HMAFg6IuGlBNMjxJEL2VmU3NS7Z2mjPQ-aVS5SkK8.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter Tight';
+  src: url('/fonts/NGSnv5HMAFg6IuGlBNMjxJEL2VmU3NS7Z2mjPQ-aVi5SkK8.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter Tight';
+  src: url('/fonts/NGSnv5HMAFg6IuGlBNMjxJEL2VmU3NS7Z2mjPQ-aVC5SkK8.woff2') format('woff2');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter Tight';
+  src: url('/fonts/NGSnv5HMAFg6IuGlBNMjxJEL2VmU3NS7Z2mjPQ-aWC5SkK8.woff2') format('woff2');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* --------------------------------------------------------------------------
+   Inter Font Family
+   -------------------------------------------------------------------------- */
+@font-face {
+  font-family: 'Inter';
+  src: url('/fonts/5vvr9Vy74if2I6bQbJvbw7SY1pQ.woff2') format('woff2'),
+       url('/fonts/EOr0mi4hNtlgWNn9if640EZzXCo.woff2') format('woff2'),
+       url('/fonts/GrgcKwrN6d3Uz8EwcLHZxwEfC4.woff2') format('woff2'),
+       url('/fonts/JeYwfuaPfZHQhEG8U5gtPDZ7WQ.woff2') format('woff2'),
+       url('/fonts/OYrD2tBIBPvoJXiIHnLoOXnY9M.woff2') format('woff2'),
+       url('/fonts/Y9k9QrlZAqio88Klkmbd8VoMQc.woff2') format('woff2'),
+       url('/fonts/b6Y37FthZeALduNqHicBT6FutY.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('/fonts/A0Wcc7NgXMjUuFdquHDrIZpzZw0.woff2') format('woff2'),
+       url('/fonts/NeGmSOXrPBfEFIy5YZeHq17LEDA.woff2') format('woff2'),
+       url('/fonts/cRJyLNuTJR5jbyKzGi33wU9cqIQ.woff2') format('woff2'),
+       url('/fonts/hyOgCu0Xnghbimh0pE8QTvtt2AU.woff2') format('woff2'),
+       url('/fonts/lEJLP4R0yuCaMCjSXYHtJw72M.woff2') format('woff2'),
+       url('/fonts/oYaAX5himiTPYuN8vLWnqBbfD2s.woff2') format('woff2'),
+       url('/fonts/yDtI2UI8XcEg1W2je9XPN3Noo.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* --------------------------------------------------------------------------
+   Geist Mono Font Family
+   -------------------------------------------------------------------------- */
+@font-face {
+  font-family: 'Geist Mono';
+  src: url('/fonts/or3yQ6H-1_WfwkMZI_qYPLs1a-t7PU0AbeHjL65a5ClqOw.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Geist Mono';
+  src: url('/fonts/or3yQ6H-1_WfwkMZI_qYPLs1a-t7PU0AbeHjL65U5Ck.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Geist Mono';
+  src: url('/fonts/or3yQ6H-1_WfwkMZI_qYPLs1a-t7PU0AbeHjL65b5ClqOw.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Geist Mono';
+  src: url('/fonts/or3yQ6H-1_WfwkMZI_qYPLs1a-t7PU0AbeHjL65Q5ClqOw.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Geist Mono';
+  src: url('/fonts/or3yQ6H-1_WfwkMZI_qYPLs1a-t7PU0AbeHjL65Z5ClqOw.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Geist Mono';
+  src: url('/fonts/or3yQ6H-1_WfwkMZI_qYPLs1a-t7PU0AbeHjL67uxQxXAuk.woff2') format('woff2');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* --------------------------------------------------------------------------
+   Root Variables & Global Typography Rule
+   -------------------------------------------------------------------------- */
+:root {
+  --font-figtree: 'Figtree', sans-serif;
+  --font-inter-tight: 'Inter Tight', 'Inter', sans-serif;
+  --font-geist-mono: 'Geist Mono', monospace;
+  --color-primary: #02CD31;
+  --color-dark: #0F110F;
+  --color-surface-dark: #1A1C1A;
+  --color-card-dark: #262A27;
+  --color-muted: #7D857F;
+  --color-light-tint: #F0FCF3;
+  --color-border-light: #E5EBE7;
+}
+
+body {
+  font-family: 'Figtree', 'Inter Tight', sans-serif;
+  color: var(--color-dark);
+  background-color: #FAFBF9;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0F110F;
+}
+::-webkit-scrollbar-thumb {
+  background: #353635;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #02CD31;
+}
